@@ -147,9 +147,10 @@ it rather than re-running the experiment.)
 - [results/](results/) in this repository is the published subset of that run (JSON/CSV summaries,
   the training plot, and all GIFs) needed to grade this submission without rerunning it.
 - **Model checkpoints (`*.pt` files) are not pushed to this repository** (also git-ignored, and large —
-  ~6.7 MB each) — they're kept in the local `pacman_runs/` ZIP. They can be attached to a GitHub
-  Release on request; ping me if you need to load a checkpoint for playback rather than just watching
-  the saved GIFs.
+  ~6.7 MB each) — they're kept in the local `pacman_runs/` ZIP and attached to the
+  [`v1.0-100ep` GitHub Release](https://github.com/ethangrogan757/pacman-dqn/releases/tag/v1.0-100ep)
+  (`untrained.pt`, `episode_0025/0050/0075/0100.pt`, `trained.pt`) for anyone who wants to load a
+  checkpoint for playback rather than just watching the saved GIFs.
 
 ## Scope note
 
